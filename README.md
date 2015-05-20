@@ -29,3 +29,13 @@ RTFM: flag -f
                           cause delegate model skeletons to be emitted.  If this
                           flag is not used, -fclient is assumed.
 ```
+
+### Configuração
+Adicionar `-ORBInitialPort 1050 -ORBInitialHost localhost` em **Program Arguments** do Server e Client.
+
+### Roda-Roda
+
+1. Executar o orbd usando `orbd -ORBInitialPort 1050`
+2. Executar o Server 
+3. Executar o Client
+4. :bomb:
