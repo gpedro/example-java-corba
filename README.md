@@ -1,26 +1,20 @@
-# corba
+# CORBA Java Example
 
 Código-Fonte protegido pelos :mushroom: alucinógenos, ou seja, apenas se você tiver bem louco poderá alterar este código-fonte.
 
 
 ### Estrutura
+Caso teu projeto falte os arquivos do pacote `CalculadoraApp`, leia a seção **Gerando código**
 ```
 src
-├── CalculadoraApp.idl (acid)
-└── net
-    └── gpedro
-        └── faculdade
-            └── corba
-                ├── client
-                │   ├── CalculadoraHelper.java (generated)
-                │   ├── CalculadoraHolder.java (generated)
-                │   └── _CalculadoraStub.java (generated)
-                ├── server
-                │   └── CalculadoraPOA.java (generated)
-                └── shared
-                    ├── Calculadora.java (generated)
-                    └── CalculadoraOperations.java (generated)
+├── CalculadoraApp/
+├── CalculadoraApp.idl
+├── CalculadoraHP.java
+├── Client.java
+└── Server.java
 ```
+
+
 
 ### Gerando código
 

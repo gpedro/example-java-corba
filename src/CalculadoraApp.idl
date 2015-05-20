@@ -1,13 +1,12 @@
 module CalculadoraApp {
 
 	interface Calculadora {
-		
+
 		long somar(in long n1,in long n2);
 		long substrair(in long n1,in long n2);
 		long multiplicar(in long n1,in long n2);
 		double dividir(in long n1,in long n2);
-		
-		oneway void shutdown();
+
 	};
 
 };
