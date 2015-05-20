@@ -15,7 +15,6 @@ src
 ```
 
 
-
 ### Gerando código
 
 ```ssh
@@ -30,8 +29,10 @@ RTFM: flag -f
                           flag is not used, -fclient is assumed.
 ```
 
+
 ### Configuração
 Adicionar `-ORBInitialPort 1050 -ORBInitialHost localhost` em **Program Arguments** do Server e Client.
+
 
 ### Roda-Roda
 
@@ -39,3 +40,10 @@ Adicionar `-ORBInitialPort 1050 -ORBInitialHost localhost` em **Program Argument
 2. Executar o Server 
 3. Executar o Client
 4. :bomb:
+
+### Referências
+
+* http://www.inf.ed.ac.uk/teaching/courses/ds/CORBA-programs.html
+* http://www.dee.ufma.br/~dlopes/course/CORBA/examples_CORBA_in_java.htm
+* http://www.ejbtutorial.com/programming/tutorial-for-corba-hello-world-using-java
+* http://www.emoji-cheat-sheet.com/
